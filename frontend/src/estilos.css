@@ -1,0 +1,113 @@
+:root {
+  --verde: #2f6f4e;
+  --verde-claro: #cfe3d7;
+  --fondo: #f4f6f5;
+}
+
+body {
+  background: var(--fondo);
+  color: #222;
+}
+
+.barra {
+  background: var(--verde);
+}
+
+.barra .nav-link {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.barra .nav-link.active,
+.barra .nav-link:hover {
+  color: #fff;
+  font-weight: 600;
+  border-bottom: 2px solid #fff;
+}
+
+.btn-verde {
+  background: var(--verde);
+  border-color: var(--verde);
+  color: #fff;
+}
+
+.btn-verde:hover,
+.btn-verde:focus {
+  background: #255a3f;
+  border-color: #255a3f;
+  color: #fff;
+}
+
+.btn-outline-verde {
+  border-color: var(--verde);
+  color: var(--verde);
+}
+
+.btn-outline-verde:hover {
+  background: var(--verde);
+  color: #fff;
+}
+
+.pasos {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.paso {
+  flex: 1;
+  min-width: 140px;
+  text-align: center;
+  padding: 0.35rem 0.5rem;
+  border: 1px solid var(--verde);
+  border-radius: 999px;
+  font-size: 0.85rem;
+  color: var(--verde);
+  background: #fff;
+}
+
+.paso.hecho {
+  background: var(--verde-claro);
+}
+
+.paso.actual {
+  background: var(--verde);
+  color: #fff;
+  font-weight: 600;
+}
+
+.punto {
+  display: inline-block;
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  border: 1.5px solid var(--verde);
+  margin-right: 0.2rem;
+}
+
+.punto.lleno {
+  background: var(--verde);
+}
+
+.insignia {
+  background: var(--verde-claro);
+  color: var(--verde);
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 0.15rem 0.6rem;
+  font-size: 0.85rem;
+}
+
+.mapa {
+  width: 100%;
+  min-height: 320px;
+  border: 1px solid #c9c9c9;
+  border-radius: 0.5rem;
+  background: #e3eedc;
+}
+
+.tarjeta {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 0.6rem;
+}

@@ -1,0 +1,11 @@
+# Entornos y dependencias
+backend/.venv/
+frontend/node_modules/
+frontend/dist/
+__pycache__/
+
+# Base de datos local (se genera con seed.py)
+backend/*.db
+
+# Configuración local
+frontend/.env
