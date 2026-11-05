@@ -101,6 +101,19 @@ cd backend
 python -m unittest discover -s tests -t .
 ```
 
+## Escenarios de prueba
+
+El script `escenarios.py` ejecuta los escenarios de prueba del objetivo específico 5 sobre una copia de los datos de prueba (no modifica la base de datos). Para cada perfil registra los pasos y las herramientas necesarias para planificar una salida grupal y la correspondencia entre el perfil y las rutas recomendadas:
+
+```bash
+cd backend
+.venv\Scripts\python escenarios.py
+```
+
+## Nota para Windows
+
+Si PowerShell bloquea la ejecución de scripts, no hace falta activar el entorno virtual: se puede usar directamente `.venv\Scripts\python run.py` para el backend y `npm.cmd run dev` para el frontend.
+
 ## Estructura del proyecto
 
 ```
@@ -114,6 +127,7 @@ backend/
     compatibilidad.py   motor de compatibilidad
     schema.sql          estructura de la base de datos
   seed.py               carga de datos de prueba
+  escenarios.py         escenarios de prueba del prototipo
   tests/                pruebas automatizadas
 frontend/
   src/
