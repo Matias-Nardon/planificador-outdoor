@@ -4,6 +4,10 @@ Prototipo del **Sistema Web de Planificación Integrada de Actividades Outdoor B
 
 El sistema integra en un único proceso la planificación de una salida outdoor: recomienda rutas según la compatibilidad entre el perfil del usuario y las características de cada recorrido, y aplica ese mismo criterio para sugerir participantes compatibles con la ruta elegida.
 
+## Video de demostración
+
+Recorrido completo del prototipo: [ver el video en Google Drive](https://drive.google.com/file/d/1FEM3NgnDSuk1xB9hztTMyQE0vFvaEDhQ/view?usp=sharing)
+
 ## Funcionalidades implementadas
 
 | Historia de usuario | Funcionalidad |
